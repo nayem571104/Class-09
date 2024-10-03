@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+
+}
+.both{
+    clear: both;
+}
+nav{
+    background-color: aqua;
+   
+ }
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.menu{
+    width: 70%;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    padding: 10px 30px;
+    display: block;
+    color: black;
+    font-size: 23px;
+}
+/*banner part html start*/
+.banner{
+    background : url(../img/01.jpg);
+    height: 700px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+
+
+}
+.banner_overlay{
+    padding: 200px 0;
+    background: rgba(0,0,0,0,5);
+}
+.content_banner h1{
+    font-size: 70px ;
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+ 
+}
+.content_banner h4{
+    font-size: 40px ;
+    color: #FF1493;
+    text-transform: uppercase;
+    font-family: monospace;
+    padding-bottom: 30px;
+ 
+}
+.content_banner a{
+    padding: 10px 30px;
+    background-color:teal;
+    color: white;
+    border-radius: 30px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+.content_banner a:hover{
+    background-color: #FF1493;
+}
+/*banner part html end*/
+/*about part start*/
+.common_head h4{
+    text-align: center;
+    margin: 40px 0;
+    background-color: teal;
+    padding: 10px 0 ;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: white;
+    border-radius: 30px;
+}
+.about_photo{
+    width: 50%;
+    float: left;
+
+}
+.about_photo img{
+    width: 100%;
+}
+
+.about_content{
+    width: 50%;
+    float: left;
+}
+.about_content p{
+    padding-left: 20px;
+    text-align: justify;
+    line-height: 25px;
+}
+/*about part end*/
+
